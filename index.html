@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ocean of Books</title>
+
+    <!-- --------------Bootstrap Link-------------- -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- -------------Extarnal Css Link----------- -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- -----------------Icon Kit--------------------- -->
+    <script src="https://kit.fontawesome.com/4c2aa0badf.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- ------------Navbar starts------------ -->
+    <div style="background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(53,238,242,1) 63%, rgba(186,186,210,1) 89%);" class="mb-5">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid d-flex">
+                <img src="img/icons8-story-book-48.png">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" style="color: rgb(224, 224, 224);"
+                                href="#"><b>Home</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color:  rgb(224, 224, 224);" href="#"><b>Best Seller</b></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" style="color: rgb(224, 224, 224);" href="#"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false"><b>Trending</b>
+
+                            </a>
+                            <ul class="dropdown-menu"
+                                style="background: rgb(85,85,107);
+                                background: linear-gradient(90deg, rgba(85,85,107,1) 3%, rgba(196,251,252,1) 99%, rgba(174,174,219,1) 100%);">
+                                <li><a class=" dropdown-item" href="#">Action</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Thriller</a></li>
+                                <li><a class="dropdown-item" href="#">Drama</a></li>
+                                <li><a class="dropdown-item" href="#">Romantic</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- -----------Navbar End------------ -->
+
+    <!-- ---------------Carousel Starts------------ -->
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="IMG/02.jpg" class=" w-100 ">
+                </div>
+                <div class="carousel-item">
+                    <img src="IMG/01.jpg" class=" w-100 ">
+                </div>
+                <div class="carousel-item">
+                    <img src="IMG/03.jpg" class=" w-100 ">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            <div class="carousel-caption d-none d-md-block p-5">
+                <h4>Collect Your Favorite Books</h4>
+                <h5>Or</h5>
+                <h4>Write your dream, we will make it reality</h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------Carousel End------------ -->
+
+    <!------------------ card-1 start ------------- -->
+
+
+    <div>
+        <div class="container mt-5">
+            <div class="card text-center">
+                <div class="card-header">
+                    Featured
+                </div>
+                <div class="card-body bg-secondary text-white">
+                    <h5 class="card-title"><b>Ocean of Books</b></h5>
+                    <p class="card-text"><b><i>Your story, We make it reality</i></b></p>
+                    <a href="#" class="btn btn-primary">Explore</a>
+                </div>
+                <div class="card-footer bg-light">
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Meta Coming soon
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Registration Form</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- -----------------Reg From Start---------------- -->
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp">
+                                            <div id="emailHelp" class="form-text">We'll never share your email with
+                                                anyone
+                                                else.
+                                            </div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                        </div>
+                                        <div class="mb-3 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1">Check me in</label>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                    </form>
+                                    <!-- -----------------Reg From End---------------- -->
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!------------------ card-1 end ------------- -->
+            <!------------------ card-2 start ------------- -->
+
+            <div class="row g-4 mt-5 text-center">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="img/hopeless.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Hopeless</b></h5>
+                            <p class="card-text"> Hopeless is a novel that will leave you breathless, entranced, and
+                                remembering your own first love.
+                                Sky, a senior in high school, meets Dean Holder, a guy with a promiscuous reputation
+                                that
+                                rivals her own.From their very first encounter, he terrifies and captivates her.From
+                                their
+                                very first encounter, he terrifies and captivates her.
+                                From their very first encounter, he terrifies and captivates</p>
+                            <a href="https://www.goodreads.com/book/show/15717943-hopeless" class="btn btn-primary">Read
+                                more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="img/murder on the orient express.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Murder on the Orient Express: A Hercule Poirot Mystery </b></h5>
+                            <p class="card-text">"The murderer is with us - on the train now..."Just after midnight, the
+                                famous
+                                Orient Express is stopped in its tracks by a snowdrift.
+                                By morning, the millionaire Samuel Edward Ratchett lies dead in his compartment, stabbed
+                                a
+                                dozen
+                                times, his door locked from the inside.
+                                One of his fellow passengers must be the murderer. </p>
+                            <a href="https://www.goodreads.com/book/show/853510.Murder_on_the_Orient_Express"
+                                class="btn btn-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="img/daisy jones.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Daisy Jones & The Six </b></h5>
+                            <p class="card-text">Daisy is a girl coming of age in L.A. in the late sixties, sneaking
+                                into
+                                clubs
+                                on the Sunset Strip, sleeping with rock stars,
+                                and dreaming of singing at the Whisky a Go-Go. The sex and drugs are thrilling, but it’s
+                                the
+                                rock and roll she loves most. By the time she’s twenty,
+                                her voice is getting noticed, and she has the kind of heedless beauty that makes people
+                                do
+                                crazy
+                                things.although she was damn beautiful.</p>
+                            <a href="https://www.goodreads.com/book/show/40597810-daisy-jones-the-six"
+                                class="btn btn-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="img/everything_is_fucked.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Everything Is F*cked: A Book About Hope</b></h5>
+                            <p class="card-text">We live in an interesting time. Materially, everything is the best it’s
+                                ever
+                                been—we are freer, healthier and wealthier than any people in human history.
+                                Yet, somehow everything seems to be irreparably and horribly f*cked—the planet is
+                                warming,
+                                governments are failing, economies are collapsing,
+                                and everyone is perpetually offended on Twitter.</p>
+                            <a href="https://www.goodreads.com/book/show/43808723-everything-is-f-cked"
+                                class="btn btn-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="img/shatter me.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Shatter Me</b></h5>
+                            <p class="card-text">Juliette hasn't touched anyone in exactly 264 days.The last time she
+                                did,
+                                it was an accident, but The Reestablishment locked her up for murder.
+                                No one knows why Juliette's touch is fatal. As long as she doesn't hurt anyone else, no
+                                one
+                                really cares. The world is too busy crumbling to pieces to pay attention
+                                to a 17-year-old girl. Diseases are destroying the population.
+                            </p>
+                            <a href="https://www.goodreads.com/book/show/10429045-shatter-me"
+                                class="btn btn-primary">Read
+                                more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="img/the-silent-patient.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>The Silent Patient</b></h5>
+                            <p class="card-text">Alicia Berenson’s life is seemingly perfect. A famous painter married
+                                to an
+                                in-demand fashion photographer, she lives in a grand house with big windows
+                                overlooking a park in one of London’s most desirable areas. One evening her husband
+                                Gabriel
+                                returns home late from a fashion shoot, and Alicia shoots him five times in
+                                the face, and then never speaks another word.</p>
+                            <a href="https://www.goodreads.com/book/show/40097951-the-silent-patient"
+                                class="btn btn-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------- card end ---------------- -->
+
+    <!-- ------------------------Accordion Starts--------------------------- -->
+    <div class="container mt-5">
+        <div class="align-middle">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed text-white bg-dark" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                            aria-controls="flush-collapseOne">
+                            Why Us ?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse text-dark bg-light"
+                        aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body" style=background-color:#e7e7ee>Lorem ipsum dolor
+                            sit, amet
+                            consectetur
+                            adipisicing elit.
+                            Odit
+                            dicta
+                            in similique? Id consequatur dolore porro, ratione tempora reiciendis quia tenetur hic
+                            voluptatem similique fugiat labore. Facere alias odio quo consectetur id aspernatur
+                            voluptate quis omnis repellat vitae. Vel, quo.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed text-white bg-dark" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                            aria-controls="flush-collapseTwo">
+                            What is the main difference between Ocean of Books and other website ?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse text-dark bg-light"
+                        aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                            aperiam nihil dolorem totam pariatur, doloremque distinctio, illum culpa laborum eius
+                            maxime
+                            inventore qui possimus repellat. Pariatur blanditiis animi optio ipsum. Lorem, ipsum
+                            dolor
+                            sit amet consectetur adipisicing elit. Quibusdam tenetur quos odio? Suscipit quo harum
+                            deleniti quae quis voluptatibus ab impedit, dignissimos modi nisi magni accusamus quia
+                            numquam hic laboriosam sunt officia dicta distinctio? Eaque doloribus voluptate neque
+                            deserunt similique, eum sequi nemo odio necessitatibus tempore in explicabo sed
+                            recusandae.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed text-white bg-dark" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            What can you expect from metaverse and our collabaration ?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse text-dark bg-light"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                            ex,
+                            asperiores rerum quidem delectus dolorem impedit facere consequatur vitae inventore
+                            temporibus, repudiandae repellat ratione illum nam fuga nesciunt quod dolore ullam
+                            voluptatum quo corporis. Delectus ullam maiores consectetur, aperiam debitis placeat
+                            doloribus sed atque cum. Nemo qui aut ipsum minima. Lorem ipsum dolor sit amet
+                            consectetur
+                            adipisicing elit. Nostrum
+                            quaerat aliquam voluptas, cupiditate est eius, aspernatur sapiente, voluptatum dolore
+                            possimus enim delectus quasi. Obcaecati quas sint explicabo earum provident nihil,
+                            possimus
+                            distinctio nam quidem? Nihil quasi laboriosam provident dolore cupiditate, at qui
+                            quibusdam
+                            nesciunt doloremque ipsa, doloribus quam laudantium accusamus.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------Accordion End--------------------------- -->
+
+
+    <div style="text-align: center;" class="my-5">
+        <h1>Trusted By Over 800+ Companies</h1>
+    </div>
+    <!-------------------- footer start ------------------>
+
+    <div class="container-fluid">
+        <div style="background-color: rgb(75, 75, 75); height: 250px;" class="p-5">
+            <div>
+                <div style="text-align:center; color: whitesmoke;">
+                    <h1>Ocean of Books</h1><br>
+                    <p>Office 41, Zawaya Buildin, Ghala Muscot <br> Sultanate of Oman <br> Privecy policy।Terms and
+                        Use
+                    </p>
+                    <img src="img/footer icon.png" style="width: 100px;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------Footer End ------------------>
+
+
+    <!-- -----------------JS Link-----------------   -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
